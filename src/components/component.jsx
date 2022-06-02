@@ -1,11 +1,24 @@
 import React from 'react';
 
-export default props => {
+const First = props => {
 
-    return (
+    return(
 
         <h1>First component</h1>
 
     )
 
+
 }
+
+const Second = props => {
+
+    return(
+
+        <h1>Second component</h1>
+
+    )
+
+}
+
+export default {First, Second};

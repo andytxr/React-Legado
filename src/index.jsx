@@ -5,6 +5,9 @@ import Component from './components/component';
 
 ReactDOM.render(
 
-    <Component />
+    <div>
+        <Component.First/>
+        <Component.Second/>
+    </div>
 
 , document.getElementById('app'));
